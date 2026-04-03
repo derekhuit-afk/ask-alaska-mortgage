@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+details summary::-webkit-details-marker { display: none; }
+
+@layer utilities {
+  .bg-navy    { background-color: #0F2D6B; }
+  .bg-navy-dk { background-color: #0a1f4e; }
+  .text-navy  { color: #0F2D6B; }
+  .border-navy { border-color: #0F2D6B; }
+  .bg-aurora  { background-color: #10B981; }
+  .bg-aurora-dk { background-color: #059669; }
+  .text-aurora { color: #10B981; }
+  .text-aurora-lt { color: #34d399; }
+}
