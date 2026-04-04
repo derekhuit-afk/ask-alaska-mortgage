@@ -73,6 +73,18 @@ export default async function Home() {
         </div>
       </section>
 
+
+      {/* Market Data Teaser */}
+      <section style={{ background: '#fff', borderTop: '1px solid #F3F4F6', borderBottom: '1px solid #F3F4F6', padding: '20px' }}>
+        <div style={{ maxWidth: 760, margin: '0 auto', display: 'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'center', alignItems: 'center' }}>
+          <span style={{ fontSize: 13, color: '#6B7280', fontWeight: 600 }}>📊 Anchorage Market (Feb 2026):</span>
+          <a href="/anchorage-housing-market/single-family" style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 8, padding: '6px 14px', fontSize: 13, color: '#1E3A8A', fontWeight: 700, textDecoration: 'none' }}>🏠 SFR: $490K median →</a>
+          <a href="/anchorage-housing-market/condos" style={{ background: '#F0FDF4', border: '1px solid #BBF7D0', borderRadius: 8, padding: '6px 14px', fontSize: 13, color: '#065F46', fontWeight: 700, textDecoration: 'none' }}>🏢 Condos: $230K median →</a>
+          <a href="/anchorage-housing-market/multi-family" style={{ background: '#FEF3C7', border: '1px solid #FDE68A', borderRadius: 8, padding: '6px 14px', fontSize: 13, color: '#92400E', fontWeight: 700, textDecoration: 'none' }}>🏘️ Multi-family: $530K →</a>
+          <a href="/anchorage-housing-market" style={{ fontSize: 12, color: '#6B7280', textDecoration: 'underline' }}>Full market report →</a>
+        </div>
+      </section>
+
       {/* HMDA Data Strip */}
       <section style={{ background:`linear-gradient(135deg, #111827, ${NAV})`, color:'#fff', padding:'44px 16px', marginTop:12 }}>
         <div style={{ maxWidth:900, margin:'0 auto' }}>

@@ -1,5 +1,6 @@
 import { NextRequest } from 'next/server'
 import { getAlaskaStats, formatStatsForAI } from '@/lib/hmda'
+import { getAllMarketContext } from '@/lib/market'
 
 export const runtime = 'nodejs'
 export const maxDuration = 30
@@ -81,10 +82,14 @@ export async function POST(req: NextRequest) {
     const lastMsg = messages[messages.length - 1]?.content || ''
     const hasLeadIntent = detectLeadIntent(lastMsg)
 
-    const stats = await getAlaskaStats()
+    const [stats, marketCtx] = await Promise.all([
+      getAlaskaStats(),
+      getAllMarketContext(),
+    ])
     const hmdaCtx = formatStatsForAI(stats)
 
-    let system = SYSTEM_PROMPT(hmdaCtx)
+    const fullCtx = hmdaCtx + '\n\n' + marketCtx
+    let system = SYSTEM_PROMPT(fullCtx)
     if (hasLeadIntent) {
       system += '\n\nIMPORTANT: User is ready to move forward. Direct them immediately and enthusiastically to loanak.com. Ask for their name, email, and loan type so you can personally follow up.'
     }
