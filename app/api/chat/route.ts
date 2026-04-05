@@ -102,7 +102,7 @@ export async function POST(req: NextRequest) {
         'x-api-key': process.env.ANTHROPIC_API_KEY || '',
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-6',
+        model: 'claude-opus-4-6',
         max_tokens: 500,
         stream: true,
         system,
