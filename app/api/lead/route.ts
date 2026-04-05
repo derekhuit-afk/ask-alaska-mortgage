@@ -54,6 +54,33 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: true, note: 'queued' })
     }
 
+
+    // Fire SMS alert immediately after successful lead insert
+    if (!error && data?.id) {
+      try {
+        await fetch('https://mbs-alert-huitai.vercel.app/api/lead-alert', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-webhook-secret': 'huit_lead_webhook_2026',
+          },
+          body: JSON.stringify({
+            first_name: firstName,
+            last_name: lastName,
+            email: email || null,
+            phone: phone || null,
+            source: record.source,
+            utm_source: record.utm_source,
+            loan_purpose: record.loan_purpose,
+            est_purchase_price: record.est_purchase_price,
+            status: 'new',
+          }),
+        })
+      } catch (smsErr) {
+        console.log('SMS alert fire failed (non-blocking):', smsErr)
+      }
+    }
+
     return NextResponse.json({ success: true, id: data?.id })
 
   } catch (err) {
