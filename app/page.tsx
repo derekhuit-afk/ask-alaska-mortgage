@@ -116,6 +116,30 @@ export default async function Home() {
 
       <FAQSection />
 
+
+      {/* Network Strip */}
+      <section style={{ background: '#F3F4F6', padding: '28px 20px', borderTop: '1px solid #E5E7EB' }}>
+        <div style={{ maxWidth: 760, margin: '0 auto', textAlign: 'center' }}>
+          <div style={{ fontSize: 11, fontWeight: 700, color: '#9CA3AF', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 14 }}>
+            Alaska Mortgage Authority Network — Powered by Huit.AI
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 10 }}>
+            {[
+              { label: 'Anchorage Mortgage Guide', href: 'https://anchoragemortgageguide.com' },
+              { label: 'Alaska Investor Guide', href: 'https://alaskainvestorguide.com' },
+              { label: 'AK Military Home Loans', href: 'https://akmilitaryhomeloans.com' },
+              { label: 'Alaska Mortgage Data', href: 'https://alaskamortgagedata.com' },
+              { label: 'Alaska Lender Rankings', href: 'https://alaskalenderrankings.com' },
+            ].map(l => (
+              <a key={l.label} href={l.href}
+                style={{ background: '#fff', border: '1px solid #E5E7EB', borderRadius: 8, padding: '7px 14px', fontSize: 12, fontWeight: 600, color: '#0F2D6B', textDecoration: 'none' }}>
+                {l.label} →
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section style={{ background:NAV, color:'#fff', padding:'56px 16px', textAlign:'center' }}>
         <h2 style={{ fontSize:'clamp(22px,4vw,32px)', fontWeight:800, margin:'0 0 12px' }}>Ready to Get Pre-Approved?</h2>
