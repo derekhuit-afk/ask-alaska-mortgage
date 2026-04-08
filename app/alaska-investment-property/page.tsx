@@ -97,10 +97,10 @@ export default function AlaskaInvestmentProperty() {
         <div className="hero-inner">
           <div className="badge">Investment Property Financing</div>
           <h1>Alaska <em>Investment Property</em><br />Loans: DSCR, Multi-Family & STR</h1>
-          <p>Alaska's rental market is driven by 25,000+ JBER military personnel, year-round tourism, and oilfield worker demand that no other state can match. I specialize in financing properties that generate income &mdash; DSCR loans, VA house hacks, Airbnb/STR programs, and multi-family conventional.</p>
+          <p>Alaska's rental market is driven by 25,000+ JBER military personnel, year-round tourism, and oilfield worker demand that no other state can match. I specialize in financing properties that generate income — DSCR loans, VA house hacks, Airbnb/STR programs, and multi-family conventional.</p>
           <div className="hbtns">
             <a href="tel:9072449368" className="bp">Discuss Investment Strategy</a>
-            <a href="#loans" className="bo">See Loan Options &rarr;</a>
+            <a href="#loans" className="bo">See Loan Options →</a>
           </div>
         </div>
       </div>
@@ -126,14 +126,14 @@ export default function AlaskaInvestmentProperty() {
           <div className="dscr-box">
             <h3>DSCR Loans: The Alaska Investor's Shortcut</h3>
             <p>DSCR (Debt Service Coverage Ratio) loans qualify on the property's rental income, not your personal income. If the rent covers the mortgage, you qualify. No W2s, no tax returns, no income documentation. This is transformative for self-employed investors, real estate professionals, and anyone whose tax returns don't reflect their actual financial strength.</p>
-            <p>Alaska's strong rental market &mdash; driven by JBER, oil & gas, and tourism &mdash; means DSCR ratios on well-priced properties regularly exceed the 1.25 minimum. I structure DSCR loans starting at 20% down for single-family and 25% for multi-family.</p>
+            <p>Alaska's strong rental market — driven by JBER, oil & gas, and tourism — means DSCR ratios on well-priced properties regularly exceed the 1.25 minimum. I structure DSCR loans starting at 20% down for single-family and 25% for multi-family.</p>
           </div>
         </section>
       </div>
       <div className="sec-alt">
         <section className="sec">
           <h2>Alaska Investment <em>Market Guide</em></h2>
-          <p className="intro">Where to invest in Alaska in 2025 &mdash; cap rates, demand drivers, and financing considerations by market.</p>
+          <p className="intro">Where to invest in Alaska in 2025 — cap rates, demand drivers, and financing considerations by market.</p>
           <div className="mwrap">
             <table>
               <thead><tr><th>Market</th><th className="gh">Property Type</th><th>Cap Rate</th><th>Demand Driver</th></tr></thead>
@@ -165,7 +165,7 @@ export default function AlaskaInvestmentProperty() {
         <p>One strategy conversation. I'll map the right loan structure to your investment goals and help you understand what you can actually buy today.</p>
         <div className="cta-btns">
           <a href="tel:9072449368" className="bp">Call (907) 244-9368</a>
-          <a href="https://www.cardinalfinancial.com/find-a-loan-officer/" className="bo">Apply Online &rarr;</a>
+          <a href="https://www.cardinalfinancial.com/find-a-loan-officer/" className="bo">Apply Online →</a>
         </div>
         <a href="tel:9072449368" className="phd">(907) 244-9368</a>
       </div>
