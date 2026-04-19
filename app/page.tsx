@@ -157,6 +157,7 @@ export default async function Home() {
       {/* Footer */}
       <footer style={{ background:'#111827', color:'#6B7280', fontSize:11, padding:'20px 16px', textAlign:'center' }}>
         <p style={{ margin:'0 0 4px' }}>© 2026 AskAlaskaMortgage.ai — A Huit.AI Product | Derek Huit, VP Retail Market Leader, Cardinal Financial NMLS #203980</p>
+        <p style={{ margin:"4px 0 0" }}><a href="https://huit.ai/terms" style={{ color:"#6B7280" }}>Terms</a> · <a href="https://huit.ai/privacy" style={{ color:"#6B7280" }}>Privacy</a></p>
         <p style={{ margin:0 }}>This AI provides general mortgage information only and does not constitute a loan commitment or rate lock. Rates and program availability change daily.</p>
       </footer>
     </main>
