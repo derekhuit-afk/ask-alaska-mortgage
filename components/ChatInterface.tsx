@@ -152,7 +152,7 @@ export default function ChatInterface() {
           </div>
           <div style={{ flex: 1 }}>
             <div style={{ color: '#fff', fontWeight: 600, fontSize: 14 }}>Derek Huit — Alaska Mortgage Expert</div>
-            <div style={{ color: '#93c5fd', fontSize: 11 }}>18+ yrs · $1B+ production · Cardinal Financial NMLS #203980</div>
+            <div style={{ color: '#93c5fd', fontSize: 11 }}>18+ yrs · $1B+ production · NMLS #203980</div>
           </div>
           <a href="https://www.loanak.com" target="_blank" rel="noopener noreferrer"
             style={{ background: GREEN, color: '#fff', fontSize: 12, fontWeight: 700, padding: '7px 14px', borderRadius: 8, textDecoration: 'none', whiteSpace: 'nowrap', flexShrink: 0 }}>

@@ -180,7 +180,7 @@ export default async function SFRPage() {
           style={{ display: 'inline-block', background: GREEN, color: '#fff', fontWeight: 800, padding: '14px 28px', borderRadius: 12, textDecoration: 'none', fontSize: 15 }}>
           Apply at loanak.com →
         </a>
-        <div style={{ marginTop: 12, fontSize: 11, color: '#6B91C4' }}>Derek Huit · Cardinal Financial NMLS #203980 · Licensed AK · WA · MT</div>
+        <div style={{ marginTop: 12, fontSize: 11, color: '#6B91C4' }}>Derek Huit · NMLS #203980 · Licensed AK · WA · MT</div>
       </section>
 
       <footer style={{ background: '#0F172A', color: '#475569', fontSize: 11, padding: '14px 20px', textAlign: 'center' }}>

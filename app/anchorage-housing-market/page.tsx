@@ -259,7 +259,7 @@ export default async function MarketHubPage() {
             <div style={{ flexShrink: 0, width: 52, height: 52, borderRadius: '50%', background: NAV, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: 16 }}>DH</div>
             <div>
               <div style={{ fontWeight: 700, color: NAV, fontSize: 16, marginBottom: 2 }}>Derek Huit — Alaska Mortgage Expert</div>
-              <div style={{ fontSize: 12, color: '#6B7280', marginBottom: 14 }}>18+ years · $1B+ career production · Cardinal Financial NMLS #203980</div>
+              <div style={{ fontSize: 12, color: '#6B7280', marginBottom: 14 }}>18+ years · $1B+ career production · NMLS #203980</div>
               <div style={{ fontSize: 15, color: '#1E3A5F', lineHeight: 1.8 }}>
                 &ldquo;The Anchorage market in {all.latestMonth} is telling a clear story: {all.monthsOfSupply} months of supply means this is firmly a seller&rsquo;s market. With {all.homesSold} homes selling at a median of ${all.medianPrice.toLocaleString()} — up {all.priceYoYFormatted} year-over-year — buyers who wait are typically paying more. The buyers winning offers right now are pre-approved before they ever walk through a door. If you&rsquo;re planning to buy in the next 90 days, the single best thing you can do today is lock in your pre-approval.&rdquo;
               </div>
