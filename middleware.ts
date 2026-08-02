@@ -32,6 +32,10 @@ const HTML = `<!DOCTYPE html>
   <p class="small">Cardinal Financial Company, Limited Partnership &middot; Company NMLS&nbsp;#66247</p>
   <p class="small">Equal Housing Lender</p>
   <p class="small"><a href="https://www.nmlsconsumeraccess.org/EntityDetails.aspx/INDIVIDUAL/203980" rel="noindex,nofollow">Verify NMLS&nbsp;#203980</a></p>
+  <p class="small"><a href="https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/66247" rel="noindex,nofollow">Cardinal Financial Company NMLS&nbsp;#66247 &mdash; NMLS Consumer Access</a></p>
+  <p class="small">Visit the NMLS Consumer Access website at <a href="https://www.nmlsconsumeraccess.org" rel="noindex,nofollow">www.nmlsconsumeraccess.org</a> for regulatory information about us.</p>
+  <p class="small"><a href="https://cardinalfinancial.com/privacypolicy/" rel="noindex,nofollow">Cardinal Financial Privacy Policy</a> &middot; <a href="https://cardinalfinancial.com/terms-and-conditions/" rel="noindex,nofollow">Cardinal Financial Terms and Conditions</a> &middot; <a href="https://cardinalfinancial.com/nmls-licensing/" rel="noindex,nofollow">Cardinal Financial Licensing</a></p>
+  <p class="small">&copy; 2026 Huitai LLC. Loan products are offered through Cardinal Financial Company, Limited Partnership (NMLS ID 66247). &copy; 2026 Cardinal Financial Company, Limited Partnership. All Cardinal Financial trademarks and trade names are the property of Cardinal Financial Company, Limited Partnership.</p>
 </main>
 </body>
 </html>`
